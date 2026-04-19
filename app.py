@@ -11,7 +11,6 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 # ── Page config ────────────────────────────────────────────────
 st.set_page_config(
     page_title='OIT Incident Intelligence',
-    page_icon='📊',
     layout='wide',
     initial_sidebar_state='collapsed',
 )
@@ -384,12 +383,12 @@ st.markdown('<br>', unsafe_allow_html=True)
 
 # ── Tabs ───────────────────────────────────────────────────────
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-    '📈  Overview',
-    '📊  Workload Analysis',
-    '🔴  P1 Deep Dive',
-    '🟠  P2 Analysis',
-    '🔬  Decomposition',
-    '📍  Location & Issues',
+    'Overview',
+    'Workload Analysis',
+    'P1 Deep Dive',
+    'P2 Analysis',
+    'Decomposition',
+    'Location & Issues',
 ])
 
 # ════════════════════════════════════════════════════════════
